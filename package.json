@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --no-minify index.html  --dist-dir ./dist"
+  },
+  "author": "Parvathy Jothi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.39.2"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3",
+    "fractional": "^1.0.0",
+    "fractional-arithmetic": "^1.2.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
